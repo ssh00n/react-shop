@@ -1,0 +1,18 @@
+.list-group-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.list-group-item img {
+  border-radius: 5px;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-controls button {
+}

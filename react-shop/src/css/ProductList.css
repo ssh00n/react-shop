@@ -1,0 +1,29 @@
+.product-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ensures the card stretches to fill column height */
+}
+
+.product-card .product-image {
+  width: 100%;
+  height: 160px; /* Fixed height for images */
+  object-fit: contain;
+}
+
+.product-card-body {
+  flex-grow: 1; /* Allows the body to expand and fill the available space */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distributes space evenly */
+  min-height: 150px; /* Set a minimum height */
+}
+
+.price-box {
+  display: flex;
+  gap: 20px;
+  margin: auto;
+}
+
+.float-end {
+  font-size: 25px;
+}
